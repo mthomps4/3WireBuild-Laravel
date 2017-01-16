@@ -7824,7 +7824,6 @@ footer {
 
 .pageTitle {
   border-bottom: solid 1px;
-  text-align: center;
 }
 
 .blogpostBody img {
@@ -7901,7 +7900,7 @@ footer {
 }
 
 .comment {
-  border-right: solid 1px #ccc;
+  border-right: solid 1px #eee;
   padding-right: 10px;
 }
 
@@ -7909,6 +7908,7 @@ footer {
   -ms-grid-row-align: center;
   align-self: center;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
@@ -7968,6 +7968,11 @@ footer {
   border: solid 4px #333;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+.contactProfile {
+  border-radius: 50%;
+  float: right;
 }
 
 #Skills {

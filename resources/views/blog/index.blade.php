@@ -8,7 +8,6 @@
       <br /><span class='filteredBy'>Filtered By: {{$categoryName}}</span>
     @endif
   </h1>
-  <hr>
 
   @foreach($posts as $post)
       <div class="blogpostWrap">

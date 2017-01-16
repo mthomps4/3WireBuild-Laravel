@@ -49,6 +49,7 @@
         </li>
       @endforeach
     </ul>
+    <hr>
 </div>
 @stop
 

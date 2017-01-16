@@ -1,6 +1,5 @@
-@include('blog.sidebarFunctions');
+@include('blog.sidebarFunctions')
 
-<hr />
 <div class="sidebarMobileFlex">
 <div>
   <h4>Blog Archive</h4>
