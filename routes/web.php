@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'MainController@index');
 
 //Auth::routes();
 // Registration Routes...
@@ -40,6 +38,7 @@ Route::get('/post/{blogpost}', 'blogpostController@show');
 Route::get('/tag/{tag}/posts', 'tagController@getByTag');
 Route::get('/category/{category}/posts/', 'categoryController@getByCategory');
 Route::get('/contact', 'MainController@contact');
+Route::post('/sendEmail', 'MainController@sendEmail');
 Route::get('/projects', 'MainController@projects');
 
 

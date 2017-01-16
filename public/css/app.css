@@ -7977,7 +7977,7 @@ footer {
   width: 100%;
 }
 
-.skillFlex {
+.skillFlex, .skillFlexTop {
   width: 100%;
   margin: 20px;
 }
@@ -8152,6 +8152,22 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .skillFlexTop {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    align-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    width: 100%;
+    margin: 20px;
+  }
   .skillFlex {
     width: 30%;
     -webkit-box-flex: 1;

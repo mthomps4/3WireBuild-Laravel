@@ -4,7 +4,7 @@
   <div class="wrapper">
   <h2 class="pageTitle">About Me</h2>
   <div id="AboutMe">
-    
+
     <img class="profile" src="/linkImages/img/Pro.jpg" />
 
     <div class="bio">
@@ -17,10 +17,10 @@
     </div>
 
   <h2 class="pageTitle">Skills</h2>
-  
+
   <div id="SkillsWrap">
   <div id="Skills">
-  <div class="skillFlex">
+  <div class="skillFlexTop">
     <p class="skillsCaption">Developer</p>
     <p class="skillsList">HTML5, CSS3, SASS, Bootstrap4, JavaScript, JQuery, C#, ASP.NET, NodeJS, PHP, MySQL, LINQ, Laravel, Angular, Composer, NPM, Express, MongoDB, Wordpress, Unix Console, Git Bash, LAMP stack, GitHub, Slack, Network Administration, Linux, Windows, MacOS</p>
   </div>
