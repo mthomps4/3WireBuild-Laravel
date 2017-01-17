@@ -54,5 +54,5 @@ Route::get('/deletepost/{blogpost}', 'blogpostController@deletepost')->middlewar
 
 Route::post('/storeNewPost', 'blogpostController@store')->middleware('auth');
 Route::post('/updatePost', 'blogpostController@update')->middleware('auth');;
-Route::post('/post/{blogpost}/comment', 'CommentController@store')->middleware('auth');
+Route::post('/post/{blogpost}/comment', 'CommentController@store');
 Route::post('/burn', 'blogpostController@consumePostInFire')->middleware('auth');;
