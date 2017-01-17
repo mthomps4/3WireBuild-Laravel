@@ -55,7 +55,7 @@ function isActiveRoute($route, $output = "active")
       <p>Matthew Thompson | 3WireBuild | {{date('Y')}}</p>
 
       <div class="downloadFlex">
-        <a href="../MThompsonResume.pdf" target="_blank" download class="ResumeDownload">Download Full Resume</a>
+        <a href="/linkImages/MThompsonResume.pdf" target="_blank" class="ResumeDownload">Download Full Resume</a>
         <div class="flexLinks">
           <a href="https://github.com/mthomps4/" target="_blank" class="aboutLinks"><img src="/linkImages/Social/github.png" alt="Github Link"></a>
           <a href="https://www.linkedin.com/in/mthomps4" target="_blank" class="aboutLinks"><img src="/linkImages/Social/linkedin.png" alt="LinkedIn Link"></a>
