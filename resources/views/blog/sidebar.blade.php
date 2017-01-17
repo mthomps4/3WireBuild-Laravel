@@ -54,4 +54,11 @@
     <hr />
 </div>
 
+<div class="instagramWrap">
+  <div class="">
+    {{getInstagram()}}
+  </div>
+</div>
+
+
 </div>

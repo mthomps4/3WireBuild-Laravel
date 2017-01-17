@@ -56,4 +56,22 @@ function getCategories(){
   }
    return $newCatList;
 }
+
+function getInstagram(){
+
+$InstaRequest = 'https://api.instagram.com/v1/users/921849005/media/recent/?access_token=921849005.073c48e.25d712cc8d934f4b933821948f1f6d6e';
+$getRequest = file_get_contents($InstaRequest);
+$json = json_decode($getRequest, true);
+
+foreach($json['data'] as $post){
+  echo $post['images']['low_resolution']['url'];
+  echo $post['caption']['text'];
+  echo $post['caption']['created_time'];
+  echo "<br /><br /><br />";
+}
+
+}
+
+
+
  ?>

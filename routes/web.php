@@ -40,6 +40,9 @@ Route::get('/category/{category}/posts/', 'categoryController@getByCategory');
 Route::get('/contact', 'MainController@contact');
 Route::post('/sendEmail', 'MainController@sendEmail');
 Route::get('/projects', 'MainController@projects');
+Route::get('/code', function(){
+  return view('codeView');
+});
 
 
 //Blog Admin Routes
