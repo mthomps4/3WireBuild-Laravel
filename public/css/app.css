@@ -7797,6 +7797,25 @@ footer {
   text-align: right;
 }
 
+.instagramWrap {
+  width: 200px;
+  float: right;
+  padding: 5px;
+  background-color: #ddd;
+}
+
+.instaImage {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.instaCaption {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 991px) {
   .sidebarMobileFlex {
     display: -webkit-box;
@@ -7806,6 +7825,10 @@ footer {
   }
   .sidebarContent {
     text-align: center;
+  }
+  .instagramWrap {
+    float: none;
+    margin: 0 auto;
   }
 }
 

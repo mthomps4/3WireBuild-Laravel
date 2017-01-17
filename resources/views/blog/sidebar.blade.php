@@ -53,12 +53,20 @@
 
     <hr />
 </div>
-
-<div class="instagramWrap">
-  <div class="">
-    {{getInstagram()}}
-  </div>
 </div>
 
 
+<div class="instagramWrap">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+    @foreach(getInstagram() as $count => $post)
+      <div class="item {{$count == 0 ? 'active' : ' '}}">
+        <img class="instaImage" src="{{$post['images']['low_resolution']['url']}}" alt="Instagram Post Image">
+      </div>
+    @endforeach
+    <div class="instaCaption">
+        <a href="https://www.instagram.com/3WireBuild" target="_blank" class="aboutLinks">@3WireBuild<img src="/linkImages/Social/instagram.png" alt="Instagram Link"></a>
+    </div>
+  </div>
 </div>

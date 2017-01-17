@@ -6,7 +6,7 @@
   <div class="HighlightContainer">
 
     <div class="project">
-        <img class="projectImg" src="https://github.com/mthomps4/3WireCMS/blob/master/codesnips/3WireCMS-BlogPost.PNG?raw=true" alt="3WireCMS Blog Image"/>
+        <img class="projectImg" src="/linkImages/img/3WireCMS-c.png" alt="3WireCMS Blog Image"/>
         <div class="projectBox">
           <div class="codeButtons">
             <a href="https://github.com/mthomps4/3WireCMS" target="_blank" class="TheCode">The Code </a>
@@ -20,7 +20,7 @@
 
 
       <div class="project">
-          <img class="projectImg" src="linkImages/img/Bourbon.JPG" alt=""/>
+          <img class="projectImg" src="/linkImages/img/Bourbon-c.JPG" alt=""/>
           <div class="projectBox">
             <div class="codeButtons">
               <a href="https://github.com/mthomps4/KocherasBourbonTrail" target="_blank" class="TheCode">The Code </a>
@@ -33,7 +33,7 @@
         </div>
 
         <div class="project">
-          <img class="projectImg" src="linkImages/img/3wirechat.PNG" alt=""/>
+          <img class="projectImg" src="/linkImages/img/3wirechat-c.PNG" alt=""/>
           <div class="projectBox">
             <div class="codeButtons">
               <a href="https://github.com/mthomps4/3WireChatApp" target="_blank" class="TheCode">The Code </a>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="project">
-            <img class="projectImg" src="linkImages/img/FurnArchive.JPG" alt=""/>
+            <img class="projectImg" src="/linkImages/img/FurnArchive-c.JPG" alt=""/>
             <div class="projectBox">
               <div class="codeButtons">
                 <a href="https://github.com/mthomps4/FurnitureDesignArchive" target="_blank" class="TheCode">The Code </a>

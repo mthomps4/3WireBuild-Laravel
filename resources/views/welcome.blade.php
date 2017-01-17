@@ -5,7 +5,7 @@
   <h2 class="pageTitle">About Me</h2>
   <div id="AboutMe">
 
-    <img class="profile" src="/linkImages/img/Pro.jpg" />
+    <img class="profile" src="/linkImages/img/Pro-c.jpg" />
 
     <div class="bio">
         <p>To describe myself in one word, I am a builder. </p>

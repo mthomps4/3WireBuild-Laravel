@@ -63,12 +63,16 @@ $InstaRequest = 'https://api.instagram.com/v1/users/921849005/media/recent/?acce
 $getRequest = file_get_contents($InstaRequest);
 $json = json_decode($getRequest, true);
 
-foreach($json['data'] as $post){
-  echo $post['images']['low_resolution']['url'];
-  echo $post['caption']['text'];
-  echo $post['caption']['created_time'];
-  echo "<br /><br /><br />";
-}
+$request = $json['data'];
+
+return $request; 
+
+// foreach($json['data'] as $post){
+//   echo $post['images']['low_resolution']['url'];
+//   echo $post['caption']['text'];
+//   echo $post['caption']['created_time'];
+//   echo "<br /><br /><br />";
+// }
 
 }
 
