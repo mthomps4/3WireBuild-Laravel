@@ -10,7 +10,10 @@ class AdminTableSeeder extends Seeder
      */
     public function run()
     {
-      $password = bcrypt('password');
-      DB::table('users')->insert(['name'=>'Dummy Admin', 'email'=> 'Admin@dummy.com', 'password'=>$password]);
+      $password = bcrypt('');
+      $name = "";
+      $email = "";
+      
+      DB::table('users')->insert(['name'=>$name, 'email'=> $email, 'password'=>$password]);
     }
   }
