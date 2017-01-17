@@ -3,9 +3,7 @@
 
   <h2 class="pageTitle">Contact Me<a href="mailto:matthew.thompson.a@gmail.com" target="_blank" class="aboutLinks"><img src="linkImages/Social/gmail.png" alt="Email Link"></a></h2>
 <div class="ContactFlexWrap">
-  <img class="col-xs-3 contactProfile" src="/linkImages/img/Profile.jpg" />
-
-  <div class="col-xs-9">
+  <div class="col-xs-12">
     <?php
       if (session()->has('data.name')){
         $name = session('data.name');

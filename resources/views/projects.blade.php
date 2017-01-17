@@ -10,11 +10,11 @@
         <div class="projectBox">
           <div class="codeButtons">
             <a href="https://github.com/mthomps4/3WireCMS" target="_blank" class="TheCode">The Code </a>
-            <a href="" target="_blank" class="DemoX">Demo </a>
+            <a href="/blog" class="Demo">Demo</a>
           </div>
           <p class="projectTitle">3WireCMS</p>
           <p class="projectLang">PHP, MySQL, Laravel, Eloquent</p>
-            <p class="projectDesc">Simple Blogging CMS built in Laravel. Live Example coming soon to <a href="/#/blog" style="color:#00BCD4;">@3WireBuild!</a></p>
+            <p class="projectDesc">Simple Blogging CMS built in Laravel. See a live example here <a href="/blog" style="color:#00BCD4;">@3WireBuild!</a></p>
           </div>
       </div>
 
@@ -50,7 +50,7 @@
             <div class="projectBox">
               <div class="codeButtons">
                 <a href="https://github.com/mthomps4/FurnitureDesignArchive" target="_blank" class="TheCode">The Code </a>
-                <a href="" target="_blank" class="DemoX">Demo </a>
+                <span class="DemoX">Demo </span>
               </div>
                 <p class="projectTitle">Furniture Design Archive</p>
                 <p class="projectLang">C#, ASP.MVC, Entity Frameworks</p>
