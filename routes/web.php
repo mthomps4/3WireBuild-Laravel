@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,7 +56,3 @@ Route::post('/storeNewPost', 'blogpostController@store')->middleware('auth');
 Route::post('/updatePost', 'blogpostController@update')->middleware('auth');;
 Route::post('/post/{blogpost}/comment', 'CommentController@store')->middleware('auth');
 Route::post('/burn', 'blogpostController@consumePostInFire')->middleware('auth');;
-
-
-//404 no route found
-Route::get('/{page}','MainController@reroute');

@@ -65,7 +65,9 @@
 
             <div id="message">
               <h1><i>Somethings Up!</i></h1>
-                <h2>Error 404: /{{$page}} Not Found.</h2>
+
+                <h2>Error 404: Page Not Found!</h2>
+                <h2>{{$_SERVER['REQUEST_URI']}}</h2>
 
                 <h3>
                   <a href="/">Return Home</a>
@@ -74,7 +76,7 @@
 
             <div id="Box">
               <div id="image">
-                  <img src="linkImages\spider_sense.jpeg">
+                  <img src="/linkImages/spider_sense.jpeg">
                   <p><i>"With great power comes great responsibility."</i></p>
               </div>
             </div>
