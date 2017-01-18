@@ -46,5 +46,9 @@
 
     </form>
 
+    <div style="margin-bottom:2em;">
+      <a href="/dashboard"><button type="button" class="btn btn-default">Nevermind...</button></a>
+    </div>
+
   </div>
   @stop

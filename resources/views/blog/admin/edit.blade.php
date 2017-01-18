@@ -61,8 +61,11 @@
       <input type="hidden" name="blogpostID" value="{{$blogpost->id}}">
 
       <input type="hidden" name="_token" value="{{ csrf_token() }}">
-
     </form>
+<div style="margin-bottom:2em;">
+  <a href="/dashboard"><button type="button" class="btn btn-default">Oops! Wrong One!</button></a>
+</div>
+
 
   </div>
   @stop
